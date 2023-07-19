@@ -1,0 +1,241 @@
+
+    Email Address: 20info@metropolitan-bar.com
+    Extracted Emails: info@metropolitan-bar.com
+    Extracted Phone Numbers: 01415531488
+    Extracted Addresses: 
+            Postcodes: G1 1LE, f9f4ee
+            Street Names: 
+            
+    ------------------------Error occurred for email: 20info@meyouandus.co.uk
+Error Message: net::ERR_CERT_COMMON_NAME_INVALID at https://meyouandus.co.uk
+Stack Trace: Error: net::ERR_CERT_COMMON_NAME_INVALID at https://meyouandus.co.uk
+    at navigate (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:111:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Function.race (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:89:20)
+    at async Frame.goto (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:77:21)
+    at async CDPPage.goto (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Page.js:444:16)
+    at async fetchCompanyWebsite (/Users/danielgreen/Scraper/scraper.js:11:5)
+    at async testScraping (/Users/danielgreen/Scraper/testScraper.js:47:26)
+------------------------
+    Email Address: 20info@mezeellesmere.co.uk
+    Extracted Emails: info@mezeellesmere.co.uk
+    Extracted Phone Numbers: 07591591493
+    Extracted Addresses: 
+            Postcodes: SY12 0AW
+            Street Names: 31 Cross Street
+            
+    ------------------------
+    Email Address: 20info@mh-partnership.co.uk
+    Extracted Emails: Contactinfo@mh-partnership.co
+    Extracted Phone Numbers: 02031500730
+    Extracted Addresses: 
+            Postcodes: E14 3AB
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@midna.co.uk
+    Extracted Emails: 
+    Extracted Phone Numbers: 
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@mkbuilders.co.uk
+    Extracted Emails: info@mkbuilders.co.uk
+    Extracted Phone Numbers: 
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------Error occurred for email: 20info@monarchsupplies.com
+Error Message: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://monarchsupplies.com
+Stack Trace: Error: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://monarchsupplies.com
+    at navigate (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:111:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Function.race (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:89:20)
+    at async Frame.goto (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:77:21)
+    at async CDPPage.goto (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Page.js:444:16)
+    at async fetchCompanyWebsite (/Users/danielgreen/Scraper/scraper.js:11:5)
+    at async testScraping (/Users/danielgreen/Scraper/testScraper.js:47:26)
+------------------------
+    Email Address: 20info@mountain-water.co.uk
+    Extracted Emails: info@mountain-water.co.uk,Enquiriesinfo@mountain-water.co
+    Extracted Phone Numbers: 01514591701,07582062257
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@mrwardrobe.co.uk
+    Extracted Emails: INFO@MRWARDROBE.CO.UK,hello@foursevenmedia.co.uk
+    Extracted Phone Numbers: 447765091015
+    Extracted Addresses: 
+            Postcodes: TW76RJ
+            Street Names: 
+            
+    ------------------------Error occurred for email: 20info@mulkerns.com
+Error Message: Navigation timeout of 30000 ms exceeded
+Stack Trace: TimeoutError: Navigation timeout of 30000 ms exceeded
+    at Timeout.<anonymous> (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:39:29)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+------------------------
+    Email Address: 20info@musicincountrychurches.org.uk
+    Extracted Emails: info@musicincountrychurches.org.uk
+    Extracted Phone Numbers: 
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@myhomepersonaltrainer.co.uk
+    Extracted Emails: info@myhomepersonaltrainer.co.uk
+    Extracted Phone Numbers: 07368699204
+    Extracted Addresses: 
+            Postcodes: TW16 5DH
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@naturalbirthingcompany.co.uk
+    Extracted Emails: 
+    Extracted Phone Numbers: 
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@newhaweli.co.uk
+    Extracted Emails: 
+    Extracted Phone Numbers: 
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@noellaltd.co.uk
+    Extracted Emails: info@noellaltd.co.uk
+    Extracted Phone Numbers: 02035904186
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@northdevonaccounts.co.uk
+    Extracted Emails: info@northdevonaccounts.co.uk
+    Extracted Phone Numbers: 01271815332,01271441266
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@northlondonyogacentre.com
+    Extracted Emails: info@northlondonyogacentre.com
+    Extracted Phone Numbers: 07976781357
+    Extracted Addresses: 
+            Postcodes: EN4 8RF
+            Street Names: 97 East Barnet Road
+            
+    ------------------------
+    Email Address: 20info@originalwoodenwindows.co.uk
+    Extracted Emails: info@originalwoodenwindows.co.uk
+    Extracted Phone Numbers: 01753651084
+    Extracted Addresses: 
+            Postcodes: SL0 0AY
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@oscr.org.uk
+    Extracted Emails: info@oscr.org.uk
+    Extracted Phone Numbers: 
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@oxfordshirelep.com
+    Extracted Emails: 
+    Extracted Phone Numbers: 03452411196
+    Extracted Addresses: 
+            Postcodes: OX11 0GD
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@panelshaper.co.uk
+    Extracted Emails: info@panelshaper.co.uk
+    Extracted Phone Numbers: 01616248201,31623249209
+    Extracted Addresses: 
+            Postcodes: OL4 2AE
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@parkwoodchiropractic.co.uk
+    Extracted Emails: info@parkwoodchiropractic.co
+    Extracted Phone Numbers: 02920228889
+    Extracted Addresses: 
+            Postcodes: CF11 9PG
+            Street Names: 029 2022 8889 Parkwood Chiropractic 93 Cathedral Road
+            
+    ------------------------
+    Email Address: 20info@pdkltd.co.uk
+    Extracted Emails: info@pdkltd.co.uk
+    Extracted Phone Numbers: 01722718183
+    Extracted Addresses: 
+            Postcodes: SP5 4LJ
+            Street Names: 7 ABOUT US PDK Vehicle Services Limited Coombe Down Farm Blandford Road
+            
+    ------------------------
+    Email Address: 20info@peonylaneinteriors.co.uk
+    Extracted Emails: 
+    Extracted Phone Numbers: 
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+    Email Address: 20info@pianowand.com
+    Extracted Emails: info@pianowand.com
+    Extracted Phone Numbers: 012568921949
+    Extracted Addresses: 
+            Postcodes: RG28 7BB
+            Street Names: 
+            
+    ------------------------Error occurred for email: 20info@pillbadmintonclub.org.uk
+Error Message: net::ERR_SSL_PROTOCOL_ERROR at https://pillbadmintonclub.org.uk
+Stack Trace: Error: net::ERR_SSL_PROTOCOL_ERROR at https://pillbadmintonclub.org.uk
+    at navigate (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:111:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Function.race (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:89:20)
+    at async Frame.goto (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:77:21)
+    at async CDPPage.goto (/Users/danielgreen/Scraper/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Page.js:444:16)
+    at async fetchCompanyWebsite (/Users/danielgreen/Scraper/scraper.js:11:5)
+    at async testScraping (/Users/danielgreen/Scraper/testScraper.js:47:26)
+------------------------
+    Email Address: 20info@pmwcom.co.uk
+    Extracted Emails: info@pmwcom.co.uk
+    Extracted Phone Numbers: 441403458118
+    Extracted Addresses: 
+            Postcodes: 
+            Street Names: 
+            
+    ------------------------
+
+    
+    Email Address: tim@canddi.com
+    Extracted Emails: hello@canddi.com
+    Extracted Phone Numbers: 441614141080
+    Extracted Addresses: 
+            Postcodes: c5d4da, M1 1FT
+            Street Names: 47 Newton Street
+            
+    ------------------------
+    Email Address: 20info@metropolitan-bar.com
+    Extracted Emails: info@metropolitan-bar.com
+    Extracted Phone Numbers: 01415531488
+    Extracted Addresses: 
+            Postcodes: G1 1LE, f9f4ee
+            Street Names: 
+            
+    ------------------------

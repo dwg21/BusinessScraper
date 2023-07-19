@@ -1,7 +1,8 @@
 const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
 const Knwl = require('knwl.js');
-const readline = require('readline');
+
+const CanddiEmail = 'Tim@canddi.com';
 
 // Function to fetch the HTML content of a given website
 async function fetchCompanyWebsite(url) {
@@ -68,29 +69,15 @@ function scrapeDataFromHTML(html) {
     const extractedPhoneNumbers = rawPhones
     .map((phone) => phone.replace(/\D/g, '')) // Remove non-digit characters
     .filter((phone, index, self) => self.indexOf(phone) === index) // Filter out duplicates
-    .filter((phone) => phone.length >= 11); // Filter out numbers with less than 11 digits
+    .filter((phone) => phone.length >= 11 && phone.length <= 12); // Filter out numbers with less than 11 or more than 12 digits
 
     return { extractedEmails, extractedPhoneNumbers, extractedAddresses };
 }
 
-// Function to get the email address from the console
-function getEmailFromConsole() {
-    const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-    });
 
-    return new Promise((resolve) => {
-    rl.question('Please enter your email address: ', (email) => {
-        rl.close();
-        resolve(email);
-    });
-    });
-}
 
-async function scrapeCompanyInfo() {
+async function scrapeCompanyInfo(email) {
     try {
-    const email = await getEmailFromConsole();
     const domain = email.split('@')[1];
     const websiteUrl = `https://${domain}`;
 
@@ -102,9 +89,17 @@ async function scrapeCompanyInfo() {
     console.log('Extracted Addresses:', extractedAddresses);
 
 } catch (err) {
-    console.error('Oops! There was an error fetching the website:', err);
+    console.error('There was an error fetching the website:', err);
 }
 }
 
 
-scrapeCompanyInfo();
+//Change variable here to test different emails
+scrapeCompanyInfo(CanddiEmail);
+
+module.exports = {
+    scrapeDataFromHTML,
+    fetchCompanyWebsite,
+};
+
+
