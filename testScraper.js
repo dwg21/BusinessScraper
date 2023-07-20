@@ -47,24 +47,20 @@ async function testScraping() {
 
             const html = await fetchCompanyWebsite(websiteUrl);
             const { extractedEmails, extractedPhoneNumbers, extractedAddresses } = await scrapeDataFromHTML(html);
-
-            const formattedAddresses = `
-            Postcodes: ${extractedAddresses.extractedPostcodes.join(', ')}
-            Street Names: ${extractedAddresses.extractedStreetNames.join(', ')}
-            `;
+            
 
           // Log results to the console
             console.log('Email Address:', email);
             console.log('Extracted Emails:', extractedEmails);
             console.log('Extracted Phone Numbers:', extractedPhoneNumbers);
-            console.log('Extracted Addresses:', formattedAddresses);
+            console.log('Extracted Addresses:', extractedAddresses);
 
           // Save results to the log file
     const logData = `
     Email Address: ${email}
     Extracted Emails: ${extractedEmails}
     Extracted Phone Numbers: ${extractedPhoneNumbers}
-    Extracted Addresses: ${formattedAddresses}
+    Extracted Addresses: ${extractedAddresses}
     ------------------------`;
         await appendFileAsync(logFileName, logData);
         } catch (err) {
